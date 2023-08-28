@@ -1,0 +1,15 @@
+{
+    "deno.enable": true,
+    "deno.cacheOnSave": true,
+    "deno.enablePaths": ["./src"],
+    "deno.unstable": true,
+    "deno.lint": false,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "filmler",
+            "database": "/home/arif/db.db"
+        }
+    ]
+}
